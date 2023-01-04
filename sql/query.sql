@@ -1,4 +1,4 @@
-``` sql
+```sql
 SELECT 
   product_manufacturer, 
   product_name, 
