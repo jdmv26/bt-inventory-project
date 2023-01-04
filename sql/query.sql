@@ -1,4 +1,4 @@
-```sql
+~~~~sql
 SELECT 
   product_manufacturer, 
   product_name, 
@@ -12,6 +12,6 @@ GROUP BY
   product_name 
 ORDER BY 
   product_manufacturer DESC;
-```
+~~~~
 
 
