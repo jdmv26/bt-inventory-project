@@ -22,6 +22,8 @@ ORDER BY
 | Unknown              | Box of 100 Waxing Strips | 1      |
 | Unknown              | Eye Protection           | 1      |
 
+
+
 -- Q2 What is the list of different items they have?
 
 SELECT 
@@ -60,4 +62,42 @@ FROM
 | Box of 18 Baby Wipes                   |
 | Peelable Wax                           |
 
--- Q3 How many of the products are ==sourced== from an, “Unknown” place?
+
+
+-- Q3 How many of the products are sourced from an, “Unknown” place?
+
+SELECT 
+  DISTINCT product_name 
+FROM 
+  `inventory-control-managment.inventorydataset.inventory_table` 
+WHERE 
+  where_bought = 'Unknown'
+
+-- Query result
+
+| product_name      |
+|-------------------|
+| Towels            |
+| Box of 100 Gloves |
+
+
+-- Q4 What item do they hold the most of?
+
+SELECT 
+  * 
+FROM 
+  `inventory-control-managment.inventorydataset.inventory_table` 
+ORDER BY 
+  quantity DESC 
+LIMIT 
+  5
+
+-- Query result
+
+| product_name | product_price | product_manufacturer | size   | quantity | colour | where_bought | status |
+|--------------|---------------|----------------------|--------|----------|--------|--------------|--------|
+| Towels       | 0             | Unknown              | Large  | 12       | White  | Unknown      | Good   |
+| Couch Roll   | 47.41         | Amazon Commercial    | N/A    | 11       | White  | Amazon       | Good   |
+| Towels       | 0             | Unknown              | Medium | 9        | White  | Unknown      | Good   |
+| Towels       | 0             | Unknown              | Small  | 8        | White  | Unknown      | Good   |
+| Towels       | 0             | Unknown              | Large  | 8        | Grey   | Unknown      | Good   |
