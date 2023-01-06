@@ -38,7 +38,7 @@ A pie chart was used instead of a histogram in Tableau because from my experienc
 
 The visuals were presented through Tableau and those made through JN were made for me to practice and showcase.
 
-## Action to be taken
+## Actions to be taken
 
 Based on the results, I've informed the business owner to take action by removing items that are in excessive quantity or condense those items to make space for other items so that all the inventory is in one location.
 
