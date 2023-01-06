@@ -6,13 +6,13 @@ This project is being done to showcase and improve on the following skills: SQL,
 
 I had the opportunity to volunteer at a beautician's small business where I offered to record their current inventory and answer any related questions.
 
-The data was recorded on a spreadsheet, upload onto BigQuery and data visuals created using Python and Tableau.
+The data was recorded on a spreadsheet, uploaded onto BigQuery and data visuals created using Python and Tableau.
 
 ### Problem
 - The business owner would like to improve on how their inventory is organised
 - They would like to make more cost effective decisions
 
-## File layout
+## Layout
 
 For the spreadsheet from which sql queries and data visualisations were based on, please see <mark>csv file</mark>.
 
@@ -23,12 +23,12 @@ For the questions and queries completed using SQL please see <mark>sql</mark>.
 
 ## Inventory spreadsheet
 
-An important note to add is that one of the goals of the business owner is to improve on how their inventory is organised. This is why some products have no known product manufacturer or no idea where the product was bought from. The business owner was asked what they would consider something that is 'low' in stock and thus consider taking action. I used the “If” statement to complete column named, 'status': =if(E2 < 3, "Low", "Good").
+An important note to add is that one of the goals of the business owner is to improve on how their inventory is organised. This is why some products have no known product manufacturer or no idea where the product was bought from. The business owner was asked what they would consider something that is 'low' in stock and thus consider taking action. I used the “If” statement to complete the column named, 'status': =if(E2 < 3, "Low", "Good").
 
 ## SQL
 
 Initially I was going to create the table on BigQuery and alter the table. However, BigQuery doesn't allow for this on the free to use version.
-The questions asked by the business owner where noted down and used to carry out queries on BigQuery. From the results of the queries, I would base visuals around those that I feel would help solve the business owners problem.
+The questions asked by the business owner were noted down and used to carry out queries on BigQuery. From the results of the queries, I would base visuals around those that I feel would help solve the business owners problem.
 
 ## Data visualisation
 
