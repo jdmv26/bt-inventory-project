@@ -1,3 +1,3 @@
 # Tableau
 
-[Link to Tableau Dashboard](https://public.tableau.com/views/Project3_16726966265470/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Link to Tableau Dashboard](https://public.tableau.com/views/InventoryDashboard_16730042023160/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
